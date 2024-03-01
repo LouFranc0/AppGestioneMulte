@@ -16,33 +16,9 @@ namespace S5_ProgettoPolizia.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add(AnagraficaModel dati)
-        {
-            var conn = new SqlConnection(connString);
-            try
-            {
-                conn.Open();
-                var cmd = new SqlCommand("INSERT INTO Anagrafica (Cognome, Nome, Indirizzo, Città, CAP, CodiceFiscale) VALUES (@surname, @name, @address, @city, @CAP, @CodiceFiscale)", conn);
-                cmd.Parameters.AddWithValue("@surname", dati.Cognome);
-                cmd.Parameters.AddWithValue("@name", dati.Nome);
-                cmd.Parameters.AddWithValue("@address", dati.Indirizzo);
-                cmd.Parameters.AddWithValue("@city", dati.Città);
-                cmd.Parameters.AddWithValue("@CAP", dati.CAP);
-                cmd.Parameters.AddWithValue("@CodiceFiscale", dati.Codice_Fiscale);
-                cmd.ExecuteNonQuery();
-                return RedirectToAction("Index");
-            }
-            catch (Exception ex)
-            {
-                return View("Error");
-            }
-            finally { conn.Close(); }
 
-        }
-    }
-}
 
-/* public IActionResult Anagrafica(string surname, string name, string address, string city, int CAP, string CodiceFiscale)
+        public IActionResult Anagrafica(string surname, string name, string address, string city, int CAP, string CodiceFiscale)
         {
             var conn = new SqlConnection(connString);
             try
@@ -64,5 +40,5 @@ namespace S5_ProgettoPolizia.Controllers
             }
             finally { conn.Close(); }
         }
-    */
-
+    }
+}

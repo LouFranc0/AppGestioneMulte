@@ -1,37 +1,46 @@
-@{
+@model S5_ProgettoPolizia.Models.AnagraficaModel
 
-}
+<!DOCTYPE html>
+<html>
 
-@model AnagraficaModel
+<head>
+    <title>Aggiungi Anagrafica</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
 
-<form class="text-center" method="post" asp-controller="Anagrafica" asp-action="Add">
-    <fieldset>
-        <legend>Nuova Anagrafica:</legend>
-        <label asp-for="@Model.Cognome">Cognome:</label>
-        <input type="text" asp-for="@Model.Cognome">
-        <br>
-        <br>
-        <label asp-for="@Model.Nome">Nome:</label>
-        <input type="text" asp-for="@Model.Nome">
-        <br>
-        <br>
-        <label asp-for="@Model.Indirizzo">Indirizzo:</label>
-        <input type="text" asp-for="@Model.Indirizzo">
-        <br>
-        <br>
-        <label asp-for="@Model.Città">Città:</label>
-        <input type="text" asp-for="@Model.Città">
-        <br>
-        <br>
-        <label asp-for="@Model.CAP">CAP:</label>
-        <input type="text" asp-for="@Model.CAP">
-        <br>
-        <br>
-        <label asp-for="@Model.Codice_Fiscale">Codice Fiscale:</label>
-        <input type="text" asp-for="@Model.Codice_Fiscale">
+<body>
+    <div class="container">
+        <h2 class="mt-4">Aggiungi Anagrafica</h2>
+        <form asp-action="Anagrafica" method="post">
+            <div class="form-group">
+                <label for="surname">Cognome:</label>
+                <input type="text" class="form-control" id="surname" name="surname" />
+            </div>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" class="form-control" id="name" name="name" />
+            </div>
+            <div class="form-group">
+                <label for="address">Indirizzo:</label>
+                <input type="text" class="form-control" id="address" name="address" />
+            </div>
+            <div class="form-group">
+                <label for="city">Città:</label>
+                <input type="text" class="form-control" id="city" name="city" />
+            </div>
+            <div class="form-group">
+                <label for="CAP">CAP:</label>
+                <input type="text" class="form-control" id="CAP" name="CAP" />
+            </div>
+            <div class="form-group">
+                <label for="CodiceFiscale">Codice Fiscale:</label>
+                <input type="text" class="form-control" id="CodiceFiscale" name="CodiceFiscale" />
+            </div>
+            <button type="submit" class="btn btn-primary">Aggiungi</button>
+        </form>
+    </div>
 
-        <button class="btn btn-primary" type="submit" value="Submit">Aggiungi</button>
 
+</body>
 
-    </fieldset>
-</form>
+</html>
