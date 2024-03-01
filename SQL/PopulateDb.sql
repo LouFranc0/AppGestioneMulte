@@ -1,5 +1,5 @@
 -- Popolamento della prima tabella (Anagrafiche)
-INSERT INTO [dbo].[Anagrafica] (Cognome, Nome, Indirizzo, Città, CAP, Cod_Fisc)
+INSERT INTO [dbo].[Anagrafica] (Cognome, Nome, Indirizzo, Città, CAP, Codice_Fiscale)
 VALUES
     ('Rossi', 'Mario', 'Via Roma 1', 'Roma', '00100', 'RSSMRA80M01H501A'),
     ('Verdi', 'Anna', 'Via Milano 2', 'Milano', '20100', 'VRDANN75M02H502B'),
