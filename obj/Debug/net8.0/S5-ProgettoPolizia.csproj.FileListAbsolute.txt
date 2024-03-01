@@ -65,3 +65,4 @@
 /Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/obj/Debug/net8.0/S5-ProgettoPolizia.pdb
 /Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/obj/Debug/net8.0/S5-ProgettoPolizia.genruntimeconfig.cache
 /Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/obj/Debug/net8.0/ref/S5-ProgettoPolizia.dll
+/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/obj/Debug/net8.0/S5-ProgettoPolizia.sourcelink.json

@@ -1,9 +1,10 @@
 @{
+
 }
 
 @model AnagraficaModel
 
-<form class="text-center" method="post" asp-controller="AnagraficaController" asp-action="Add">
+<form class="text-center" method="post" asp-controller="Anagrafica" asp-action="Anagrafica">
     <fieldset>
         <legend>Nuova Anagrafica:</legend>
         <label asp-for="@Model.Cognome">Cognome:</label>
@@ -29,6 +30,7 @@
         <label asp-for="@Model.Codice_Fiscale">Codice Fiscale:</label>
         <input type="text" asp-for="@Model.Codice_Fiscale">
 
+        <button class="btn btn-primary" type="submit" value="Submit">Aggiungi</button>
 
 
     </fieldset>

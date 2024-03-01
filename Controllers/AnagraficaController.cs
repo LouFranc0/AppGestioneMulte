@@ -9,13 +9,13 @@ namespace S5_ProgettoPolizia.Controllers
     {
         private string connString = "Server=localhost,1433;Database=ESERCIZIOS2L5; User Id=sa;Password=NotHunter2 Initial Catalog=S5-ProgettoPolizia; Integrated Security=true; TrustServerCertificate=True";
 
-        public IActionResult Add()
+        public IActionResult Anagrafica()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Add(string surname, string name, string address, string city, int CAP, string CodiceFiscale)
+        public IActionResult Anagrafica(string surname, string name, string address, string city, int CAP, string CodiceFiscale)
         {
             var conn = new SqlConnection(connString);
             try
