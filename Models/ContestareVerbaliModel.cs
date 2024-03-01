@@ -1,6 +1,6 @@
 namespace S5_ProgettoPolizia.Models
 {
-    public class ContestareViolazioneModel
+    public class ContestareVerbaliModel
     {
         public int IDViolazione { get; set; }
         public required string Descrizione { get; set; }
