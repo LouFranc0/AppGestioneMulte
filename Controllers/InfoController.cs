@@ -3,9 +3,9 @@ using Microsoft.Data.SqlClient;
 using S5_ProgettoPolizia.Models;
 using System.Data;
 
-namespace Statistiche.Controllers
+namespace S5_ProgettoPolizia.Controllers
 {
-    public class StatisicheController : Controller
+    public class FunzionalitaController : Controller
     {
         public IActionResult Index()
         {
@@ -52,7 +52,7 @@ namespace Statistiche.Controllers
             return View(record);
         }
 
-        public IActionResult Maggiore10Punti()
+        public IActionResult MaggioreDieciPunti()
         {
             DataTable dataTable = new DataTable();
             List<DataRow> record = new List<DataRow>();
@@ -72,14 +72,14 @@ namespace Statistiche.Controllers
             return View(record);
         }
 
-        public IActionResult Maggiore400Euro()
+        public IActionResult MaggioreDiQuattrocento()
         {
             DataTable dataTable = new DataTable();
             List<DataRow> record = new List<DataRow>();
             try
             {
                 ConnectionDb.conn.Open();
-                string query = "SELECT DataViolazione, Nominativo_Agente, Importo FROM Verbali WHERE Importo > 400";
+                string query = "SELECT DataViolazione, Nominativo_Agente, Importo FROM Verbale WHERE Importo > 400";
                 SqlDataAdapter adapter = new SqlDataAdapter(query, ConnectionDb.conn);
                 adapter.Fill(dataTable);
                 foreach (DataRow row in dataTable.Rows)
