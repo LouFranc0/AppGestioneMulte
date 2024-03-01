@@ -1,0 +1,35 @@
+@{
+}
+
+@model AnagraficaModel
+
+<form class="text-center" method="post" asp-controller="AnagraficaController" asp-action="Add">
+    <fieldset>
+        <legend>Nuova Anagrafica:</legend>
+        <label asp-for="@Model.Cognome">Cognome:</label>
+        <input type="text" asp-for="@Model.Cognome">
+        <br>
+        <br>
+        <label asp-for="@Model.Nome">Nome:</label>
+        <input type="text" asp-for="@Model.Nome">
+        <br>
+        <br>
+        <label asp-for="@Model.Indirizzo">Indirizzo:</label>
+        <input type="text" asp-for="@Model.Indirizzo">
+        <br>
+        <br>
+        <label asp-for="@Model.Città">Città:</label>
+        <input type="text" asp-for="@Model.Città">
+        <br>
+        <br>
+        <label asp-for="@Model.CAP">CAP:</label>
+        <input type="text" asp-for="@Model.CAP">
+        <br>
+        <br>
+        <label asp-for="@Model.Codice_Fiscale">Codice Fiscale:</label>
+        <input type="text" asp-for="@Model.Codice_Fiscale">
+
+
+
+    </fieldset>
+</form>
