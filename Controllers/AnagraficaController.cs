@@ -18,7 +18,7 @@ namespace S5_ProgettoPolizia.Controllers
         [HttpPost]
 
 
-        public IActionResult Anagrafica(string surname, string name, string address, string city, int CAP, string CodiceFiscale)
+        public IActionResult Add(string surname, string name, string address, string city, int CAP, string CodiceFiscale)
         {
             var conn = new SqlConnection(connString);
             try

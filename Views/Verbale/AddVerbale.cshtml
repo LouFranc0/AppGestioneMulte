@@ -1,17 +1,19 @@
-@model S5_ProgettoPolizia.Models.VerbaleModel
+@{
+    ViewData["Title"] = "Aggiungi Verbale";
+}
 
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>Aggiungi Verbale</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>@ViewData["Title"]</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
         <h2 class="mt-4">Aggiungi Verbale</h2>
-        <form asp-action="Add" method="post">
+        <form asp-action="AggiungiVerbale" method="post">
             <div class="form-group">
                 <label for="DataViolazione">Data Violazione:</label>
                 <input type="date" class="form-control" id="DataViolazione" name="DataViolazione" />
@@ -39,7 +41,6 @@
             <button type="submit" class="btn btn-primary">Aggiungi</button>
         </form>
     </div>
-
 
 </body>
 

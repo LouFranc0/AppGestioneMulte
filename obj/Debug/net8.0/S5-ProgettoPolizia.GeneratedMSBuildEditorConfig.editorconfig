@@ -18,8 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Anagrafica/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5hZ3JhZmljYS9BZGQuY3NodG1s
+[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Anagrafica/AggiungiAnagrafica.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQW5hZ3JhZmljYS9BZ2dpdW5naUFuYWdyYWZpY2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Home/Index.cshtml]
@@ -38,8 +38,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Verbale/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVyYmFsZS9BZGQuY3NodG1s
+[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/TipoDiViolazione/AggiungiViolazione.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlwb0RpVmlvbGF6aW9uZS9BZ2dpdW5naVZpb2xhemlvbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Verbale/AddVerbale.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVyYmFsZS9BZGRWZXJiYWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/_ViewImports.cshtml]

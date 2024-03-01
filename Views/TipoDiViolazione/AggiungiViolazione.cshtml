@@ -1,0 +1,56 @@
+@model S5_ProgettoPolizia.Models.TipoDIViolazioneModel
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aggiungi Verbale</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="mt-4">Aggiungi Verbale</h2>
+        <form asp-action="Add" method="post">
+            <div class="form-group">
+                <label for="DataViolazione">Data Violazione:</label>
+                <input type="date" class="form-control" id="DataViolazione" name="DataViolazione" />
+            </div>
+            <div class="form-group">
+                <label for="IndirizzoViolazione">Indirizzo Violazione:</label>
+                <input type="text" class="form-control" id="IndirizzoViolazione" name="IndirizzoViolazione" />
+            </div>
+            <div class="form-group">
+                <label for="Nominativo_Agente">Nominativo Agente:</label>
+                <input type="text" class="form-control" id="Nominativo_Agente" name="Nominativo_Agente" />
+            </div>
+            <div class="form-group">
+                <label for="DataTrascrizioneVerbale">Data Trascrizione Verbale:</label>
+                <input type="date" class="form-control" id="DataTrascrizioneVerbale" name="DataTrascrizioneVerbale" />
+            </div>
+            <div class="form-group">
+                <label for="Importo">Importo:</label>
+                <input type="number" class="form-control" id="Importo" name="Importo" step="0.01" />
+            </div>
+            <div class="form-group">
+                <label for="DecurtamentoPunti">Decurtamento Punti:</label>
+                <input type="number" class="form-control" id="DecurtamentoPunti" name="DecurtamentoPunti" />
+            </div>
+            <div class="form-group">
+                <label for="TipoViolazione">Tipo Violazione:</label>
+                <select class="form-control" id="TipoViolazione" name="TipoViolazione">
+                    <option value="Tipo1">1. Eccesso di velocità</option>
+                    <option value="Tipo2">2. Guida in stato d'ebrezza</option>
+                    <option value="Tipo3">3. Violazione del semaforo rosso</option>
+                    <option value="Tipo4">4. Manutenzione insufficente del veicolo</option>
+
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Aggiungi</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
