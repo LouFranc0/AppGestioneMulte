@@ -26,32 +26,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGVzdGFyZVZlcmJhbGkvQ29udGVzdGFyZUluZnJhemlvbmkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Funzionalita/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRnVuemlvbmFsaXRhL0luZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Funzionalita/MaggioreDieciPunti.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRnVuemlvbmFsaXRhL01hZ2dpb3JlRGllY2lQdW50aS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Funzionalita/MaggioreDiQuattrocento.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRnVuemlvbmFsaXRhL01hZ2dpb3JlRGlRdWF0dHJvY2VudG8uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Funzionalita/TotPunti.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRnVuemlvbmFsaXRhL1RvdFB1bnRpLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Funzionalita/TotVerbali.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRnVuemlvbmFsaXRhL1RvdFZlcmJhbGkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Info/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5mby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Info/MaggioreDieciPunti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5mby9NYWdnaW9yZURpZWNpUHVudGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Info/MaggioreDiQuattrocento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5mby9NYWdnaW9yZURpUXVhdHRyb2NlbnRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Info/TotPunti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5mby9Ub3RQdW50aS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Info/TotVerbali.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5mby9Ub3RWZXJiYWxpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Shared/Error.cshtml]
