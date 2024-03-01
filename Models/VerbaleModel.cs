@@ -16,5 +16,9 @@ namespace S5_ProgettoPolizia.Models
 
         public int IDTipoViolazioe { get; set; }
         public int IDAnagrafe { get; set; }
+        public int Totale { get; internal set; }
+        public string? Cognome { get; internal set; }
+        public string? Nome { get; internal set; }
+        public int TotalePunti { get; internal set; }
     }
 }

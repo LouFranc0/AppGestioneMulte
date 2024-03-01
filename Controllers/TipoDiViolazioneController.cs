@@ -8,7 +8,7 @@ namespace S5_ProgettoPolizia.Controllers
 {
     public class TipoDiViolazioneController : Controller
     {
-        private string connString = "Server=localhost,1433;Database=ESERCIZIOS2L5; User Id=sa;Password=NotHunter2 Initial Catalog=S5-ProgettoPolizia; Integrated Security=true; TrustServerCertificate=True";
+        private string connString = "Server=localhost,1433;Database=ESERCIZIOS2L5; User Id=sa;Password=NotHunter2 Initial Catalog=ESERCIZIOS5L2; Integrated Security=true; TrustServerCertificate=True";
 
         public IActionResult AggiungiViolazione()
         {
