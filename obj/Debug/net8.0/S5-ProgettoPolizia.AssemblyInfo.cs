@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("S5-ProgettoPolizia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e450e411d1a853398de0ee495219de60e309554b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+095f96bcfdf7acf9a9023a8f9ea1cf62b894a273")]
 [assembly: System.Reflection.AssemblyProductAttribute("S5-ProgettoPolizia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("S5-ProgettoPolizia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
