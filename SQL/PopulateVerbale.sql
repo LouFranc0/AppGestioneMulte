@@ -1,4 +1,4 @@
--- Popolamento della terza tabella (Verbali)
+
 INSERT INTO [dbo].[Verbale] (DataViolazione, IndirizzoViolazione, Nominativo_Agente, DataTrascrizioneVerbale, Importo, DecurtamentoPunti, IdAnagrafica, IdViolazione)
 VALUES
     ('2023-01-15', 'Via Roma 1', 'Agente1', '2023-01-20', 100.00, 2, 1, 1),

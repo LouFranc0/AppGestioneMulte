@@ -1,4 +1,4 @@
--- Popolamento della prima tabella (Anagrafiche)
+
 INSERT INTO [dbo].[Anagrafica] (Cognome, Nome, Indirizzo, Città, CAP, Codice_Fiscale)
 VALUES
     ('Rossi', 'Mario', 'Via Roma 1', 'Roma', '00100', 'RSSMRA80M01H501A'),
@@ -7,7 +7,6 @@ VALUES
     ('Ferrari', 'Laura', 'Viale Torino 4', 'Torino', '10100', 'FRRLRA90M04H504D'),
     ('Ricci', 'Roberto', 'Piazza Firenze 5', 'Firenze', '50100', 'RCCRTB85M05H505E');
 
--- Popolamento della seconda tabella (TipiViolazione)
 INSERT INTO [dbo].[TipoDiViolazione] (IdViolazione, Descrizione)
 VALUES
     (1, 'Eccesso di velocità'),
