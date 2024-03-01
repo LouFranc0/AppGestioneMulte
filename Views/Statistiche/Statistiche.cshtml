@@ -1,13 +1,11 @@
-@*
-For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-
-
-<h1>Controlli Generici</h1>
-
-
-<a asp-controller="Statistiche" asp-action="TrasgressoriData">Vai a trasgressori</a>
-<a asp-controller="Statistiche" asp-action="MaggioreDieciPunti">Vai a punti</a>
-<a asp-controller="Statistiche" asp-action="MaggioreDiQuattrocento">Maggiore di 400</a>
+<div class="text-center">
+    <p class="display-6">Quale funzionalità si vuole utilizzare?</p>
+    <div class="d-flex justify-content-evenly">
+        <a class="btn btn-warning" asp-controller="Statistiche" asp-action="TotVerbali">Totale Verbali</a>
+        <a class="btn btn-warning" asp-controller="Statistiche" asp-action="TotPunti">Totale punti decurtati</a>
+        <a class="btn btn-warning" asp-controller="Statistiche" asp-action="Maggiore400Euro">Multe maggiori di 400
+            euro</a>
+        <a class="btn btn-warning" asp-controller="Statistiche" asp-action="Maggiore10Punti">Violazioni sopra i 10
+            punti</a>
+    </div>
+</div>

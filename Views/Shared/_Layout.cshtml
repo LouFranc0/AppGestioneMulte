@@ -40,9 +40,21 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="ContestareVerbali"
                                 asp-action="ContestareInfrazioni">Contesta Infrazioni</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Statistiche"
-                                asp-action="Statistiche">Statistiche</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Funzionalità
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" asp-controller="Funzionalita"
+                                        asp-action="TotVerbali">Totale Verbali</a></li>
+                                <li><a class="dropdown-item" asp-controller="Funzionalita" asp-action="TotPunti">Totale
+                                        punti decurtati</a></li>
+                                <li><a class="dropdown-item" asp-controller="Funzionalita"
+                                        asp-action="Maggiore400Euro">Multe maggiori di 400 euro</a></li>
+                                <li><a class="dropdown-item" asp-controller="Funzionalita"
+                                        asp-action="Maggiore10Punti">Violazioni sopra i 10 punti</a></li>
+                            </ul>
                         </li>
 
                 </div>

@@ -54,8 +54,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhdGlzdGljaGUvU3RhdGlzdGljaGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Statistiche/TrasgressoriData.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhdGlzdGljaGUvVHJhc2dyZXNzb3JpRGF0YS5jc2h0bWw=
+[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Statistiche/TotPunti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhdGlzdGljaGUvVG90UHVudGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/Statistiche/TotVerbali.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3RhdGlzdGljaGUvVG90VmVyYmFsaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/francescocaputo/Desktop/FS2023/CorsoFS2023/Back-End/S5-ProgettoPolizia/Views/TipoDiViolazione/AggiungiViolazione.cshtml]

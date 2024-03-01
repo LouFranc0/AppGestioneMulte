@@ -1,32 +1,22 @@
-@*
-For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+<h1>Tabella Verbali con più di 10 punti decurtati</h1>
 
 <table class="table">
-    <thead>
+    <tr>
+        <th scope="col">Importo</th>
+        <th scope="col">Cognome</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Data di violazione</th>
+        <th scope="col">Decurtazione punti</th>
+    </tr>
+    @foreach (var verbale in Model)
+    {
         <tr>
-            <th scope="col">Importo</th>
-            <th scope="col">Cognome</th>
-            <th scope="col">Nome</th>
-            <th scope="col">Data Violazione</th>
-            <th scope="col">Decurtamento Punti</th>
+            <td>@verbale["Importo"]</td>
+            <td>@verbale["Cognome"]</td>
+            <td>@verbale["Nome"]</td>
+            <td>@verbale["DataViolazione"]</td>
+            <td>@verbale["DecurtamentoPunti"]</td>
         </tr>
-    </thead>
+    }
 
-    <tbody>
-
-        @foreach (var row in Model)
-        {
-            <tr>
-                <td scope="row">@row["Importo"]</td>
-                <td>@row["Cognome"]</td>
-                <td>@row["Nome"]</td>
-                <td>@row["DataViolazione"]</td>
-                <td>@row["DecurtamentoPunti"]</td>
-            </tr>
-
-        }
-    </tbody>
 </table>
