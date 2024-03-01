@@ -1,0 +1,11 @@
+@model S5_ProgettoPolizia.Models.FunzionalitaModel
+
+
+<h1>Seleziona un'opzione:</h1>
+
+<ul>
+    @foreach (var funzionalita in Model)
+    {
+        <li><a href="@Url.Action(funzionalita.Azione, "Verbale")">@funzionalita.Nome</a></li>
+    }
+</ul>
