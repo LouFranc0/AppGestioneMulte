@@ -96,4 +96,3 @@ namespace S5_ProgettoPolizia.Controllers
 
 }
 
-// LE QUERY VANNO TUTTE, SOLO CHE NON CAPISCO L'ERRORE
