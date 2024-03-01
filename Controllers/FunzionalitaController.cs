@@ -72,7 +72,7 @@
 //                 {
 //                     var verbale = new VerbaleModel
 //                     {
-//                         Import = Convert.ToDouble(reader["Importo"]),
+//                         Importo = Convert.ToDouble(reader["Importo"]),
 //                         Cognome = reader["Cognome"].ToString(),
 //                         Nome = reader["Nome"].ToString(),
 //                         Dataviolazione = Convert.ToDateTime(reader["DataViolazione"]),
@@ -99,7 +99,7 @@
 //                 {
 //                     var verbale = new VerbaleModel
 //                     {
-//                         Import = Convert.ToDouble(reader["Importo"]),
+//                         Importo = Convert.ToDouble(reader["Importo"]),
 //                         Cognome = reader["Cognome"].ToString(),
 //                         Nome = reader["Nome"].ToString(),
 //                         Dataviolazione = Convert.ToDateTime(reader["DataViolazione"]),
@@ -111,5 +111,17 @@
 
 //             return View(verbali);
 //         }
+//     }
+
+//     internal class VerbaleModel
+//     {
+//         public string? Nominativo_Agente { get; internal set; }
+//         public int Totale { get; internal set; }
+//         public int TotalePunti { get; internal set; }
+//         public string? Cognome { get; internal set; }
+//         public double Importo { get; internal set; }
+//         public string? Nome { get; internal set; }
+//         public DateTime Dataviolazione { get; internal set; }
+//         public int DecurtamentoPunti { get; internal set; }
 //     }
 // }
