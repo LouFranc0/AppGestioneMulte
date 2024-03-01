@@ -10,13 +10,13 @@ namespace S5_ProgettoPolizia.Controllers
     {
         private string connString = "Server=localhost,1433;Database=ESERCIZIOS2L5; User Id=sa;Password=NotHunter2 Initial Catalog=S5-ProgettoPolizia; Integrated Security=true; TrustServerCertificate=True";
 
-        public IActionResult Add()
+        public IActionResult AggiungiViolazione()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Add(string DataViolazione, string IndirizzoViolazione, string Nominativo_Agente, string DataTrascrizioneVerbale, double Importo, int DecurtamentoPunti)
+        public IActionResult AggiungiViolazione(string DataViolazione, string IndirizzoViolazione, string Nominativo_Agente, string DataTrascrizioneVerbale, double Importo, int DecurtamentoPunti)
         {
             var conn = new SqlConnection(connString);
             try
